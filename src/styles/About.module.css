@@ -1,0 +1,84 @@
+.page {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+
+.block {
+  margin-bottom: 2.5rem;
+}
+
+.blockTitle {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.9;
+}
+
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.85rem;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-top: 85px;
+    padding-bottom: 60px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .block {
+    margin-bottom: 2rem;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+
+  .tag {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.7rem;
+  }
+}

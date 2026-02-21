@@ -1,0 +1,82 @@
+.page {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+  margin-bottom: 2.5rem;
+}
+
+.block {
+  margin-bottom: 2rem;
+}
+
+.blockTitle {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.9;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding: 0.6rem 1rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.badgeDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4ade80;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-top: 85px;
+    padding-bottom: 60px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .block {
+    margin-bottom: 1.5rem;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+}

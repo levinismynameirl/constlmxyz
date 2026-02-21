@@ -1,0 +1,110 @@
+.page {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all var(--transition-medium);
+}
+
+.contactLink:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-elevated);
+  transform: translateY(-2px);
+}
+
+.linkLabel {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.linkValue {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  width: 40px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.linkNote {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.responseNote {
+  margin-top: 2.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-top: 85px;
+    padding-bottom: 60px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .contactLink {
+    padding: 1rem 1.25rem;
+    min-height: 48px;
+  }
+
+  .linkValue {
+    font-size: 0.8rem;
+    word-break: break-all;
+  }
+}
