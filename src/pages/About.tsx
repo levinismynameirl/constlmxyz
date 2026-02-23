@@ -8,9 +8,12 @@ const interests = [
   'Infrastructure',
   'Networking',
   'Reverse Engineering',
-  'Clean Architecture',
   'Finance',
   'Economics',
+  'Skiing',
+  'Nuclear Physics',
+  'Home Labs',
+  'Algorythmic Trading',
 ]
 
 export default function About() {
@@ -21,9 +24,7 @@ export default function About() {
         <FadeIn>
           <p className={styles.label}>// about</p>
           <h1 className={styles.title}>
-            Computer and data science student.
-            <br />
-            Full stack developer.
+            About me...
           </h1>
         </FadeIn>
 
@@ -31,38 +32,21 @@ export default function About() {
           <div className={styles.block}>
             <h2 className={styles.blockTitle}>who I am</h2>
             <p className={styles.text}>
-              I study computer and data science, and I build full stack
-              applications. I am passionate about machine learning and care
-              deeply about how things work under the hood, from systems and
-              infrastructure to networking and reverse engineering. Clean
-              architecture is not optional for me, it is the default.
-            </p>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.3}>
-          <div className={styles.block}>
-            <h2 className={styles.blockTitle}>what drives me</h2>
-            <p className={styles.text}>
-              I gravitate toward problems that sit at the intersection of
-              software engineering and real-world systems. Whether that is
-              figuring out how a protocol works, setting up infrastructure
-              that does not fall over, or writing code that someone else can
-              actually maintain, the goal is always the same: understand the
-              system, then make it better.
+              I study computer and data science, and I've also
+              built full stack applications and done somme machine learning
+              projects. I am interested in a lot of different things, some more
+              than others.
             </p>
           </div>
         </FadeIn>
 
         <FadeIn delay={0.4}>
           <div className={styles.block}>
-            <h2 className={styles.blockTitle}>beyond code</h2>
+            <h2 className={styles.blockTitle}>what else?</h2>
             <p className={styles.text}>
-              I spend a lot of time thinking about finance and economics.
-              Markets are just another distributed system if you look at them
-              right. I run a home lab where I self-host services and
-              experiment with things like AI-driven trading strategies. It is
-              mostly an excuse to keep learning.
+              Aside from software development, I do also have some other hobbies and interests,
+              like skiing, nuclear physics, etc. If you've read the home page, you probably
+              already know that I will be building a homelab system, and you can check the homelab page for more details.
             </p>
           </div>
         </FadeIn>

@@ -13,7 +13,7 @@ export default function ProjectDetail() {
       <div className="page-wrapper">
         <Navbar />
         <div className={`container ${styles.notFound}`}>
-          <h1 className={styles.notFoundTitle}>project not found</h1>
+          <h1 className={styles.notFoundTitle}>project not found (how did you stumble here...)</h1>
           <p className={styles.notFoundText}>
             <Link to="/projects">back to projects</Link>
           </p>

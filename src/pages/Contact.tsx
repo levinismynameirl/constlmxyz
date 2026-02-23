@@ -16,21 +16,21 @@ const contacts: ContactItem[] = [
     value: 'contact@constlm.xyz',
     href: 'mailto:contact@constlm.xyz',
     icon: '@',
-    note: 'best way to reach me for anything serious',
+    note: 'probably the best way to reach me',
   },
   {
     label: 'github',
     value: 'levinismynameirl',
     href: 'https://github.com/levinismynameirl',
     icon: '>_',
-    note: 'where the code lives',
+    note: 'here you can see my work',
   },
   {
     label: 'discord',
     value: '@epicallycool',
     href: null,
     icon: '#',
-    note: 'for casual conversations',
+    note: 'i might not respond if you message me here, but you can try',
   },
 ]
 
@@ -43,8 +43,7 @@ export default function Contact() {
           <p className={styles.label}>// contact</p>
           <h1 className={styles.title}>get in touch</h1>
           <p className={styles.subtitle}>
-            Reach out if you want to talk about a project, have a question,
-            or just want to say hey.
+            Reach out to me for any reasonable motive
           </p>
         </FadeIn>
 
@@ -89,12 +88,6 @@ export default function Contact() {
             )
           })}
         </StaggerContainer>
-
-        <FadeIn delay={0.4}>
-          <p className={styles.responseNote}>
-            I usually respond within a day or two.
-          </p>
-        </FadeIn>
       </div>
     </div>
   )

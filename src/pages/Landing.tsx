@@ -24,7 +24,7 @@ export default function Landing() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6, ease: 'easeOut' }}
         >
-          developer / student / builder
+          a student developer 
         </motion.p>
         <motion.button
           className={styles.continueBtn}

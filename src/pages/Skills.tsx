@@ -25,7 +25,7 @@ const tools: Skill[] = [
   { name: 'Firebase' },
   { name: 'Git' },
   { name: 'GitHub' },
-  { name: 'Namecheap' },
+  { name: 'Namecheap (if youd consider it)' },
 ]
 
 const areas: Skill[] = [
@@ -36,6 +36,13 @@ const areas: Skill[] = [
   { name: 'Reverse Engineering' },
   { name: 'Clean Architecture' },
   { name: 'Data Science' },
+]
+
+const otherStuff: Skill[] = [
+  { name: 'Skiing' },
+  { name: 'Nuclear Physics' },
+  { name: 'Home Labs' },
+  { name: 'Algorithmic Trading' },
 ]
 
 export default function Skills() {
@@ -97,11 +104,14 @@ export default function Skills() {
 
         <FadeIn delay={0.45}>
           <div className={styles.section}>
-            <h2 className={styles.sectionTitle}>currently exploring</h2>
-            <p className={styles.exploreText}>
-              Deeper ML work, low-level systems programming, and building out
-              more infrastructure for self-hosted services.
-            </p>
+            <h2 className={styles.sectionTitle}>other stuff</h2>
+            <StaggerContainer className={styles.skillGrid}>
+              {otherStuff.map((item) => (
+                <StaggerItem key={item.name}>
+                  <span className={styles.skill}>{item.name}</span>
+                </StaggerItem>
+              ))}
+            </StaggerContainer>
           </div>
         </FadeIn>
       </div>

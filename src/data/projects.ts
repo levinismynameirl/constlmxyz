@@ -15,7 +15,7 @@ const projects: Project[] = [
     id: 'stratum',
     name: 'STRATUM',
     tagline: 'Digital archaeology and cultural heritage management.',
-    description: `STRATUM is a team-built application designed for archaeology and cultural heritage documentation. Built for both competitions and real-world institutional use, it provides tools for managing archaeological data in environments where internet connectivity may be limited or unavailable.`,
+    description: `Stratum is a cross-platform app i made in collaboration with a friend for a team-based competition I participated in. It helps archeologists collaborate more efficiently, and share their data in a more structured way.`,
     highlights: [
       'First place at a regional competition',
       'Letter of recognition from the Ministry of Culture',

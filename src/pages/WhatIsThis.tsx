@@ -14,36 +14,30 @@ export default function WhatIsThis() {
 
         <FadeIn delay={0.15}>
           <div className={styles.block}>
-            <h2 className={styles.blockTitle}>the point</h2>
+            <h2 className={styles.blockTitle}>so... what is this?</h2>
             <p className={styles.text}>
-              This is my personal site. I use it to put my projects and work
-              somewhere that is not just a GitHub profile. If you are here,
-              you are probably looking at something I built or trying to
-              reach me.
+              This is my personal site website. It's mostly used to keep
+              track of my projects, skills, etc and just keep a general
+              portfolio online. I also use it as a sandbox for learning and
+              experimenting with web development, and also to keep a general
+              presence on the internet. I don't have any grand ambitions for it,
+              but I do want it to be a nice, clean and fast experience for anyone
+              who visits. If you have any questions, suggestions or other stuff you
+              might want to say, feel free to reach out through the contact page.
             </p>
           </div>
         </FadeIn>
 
         <FadeIn delay={0.25}>
           <div className={styles.block}>
-            <h2 className={styles.blockTitle}>how it is set up</h2>
+            <h2 className={styles.blockTitle}>how i set it up</h2>
             <p className={styles.text}>
-              The site itself is a React app built with Vite, running behind
-              nginx. Fonts are self-hosted. There are no CDN calls, no
-              external scripts, nothing leaves your browser. The domain is
-              constlm.xyz, and I use subdomains for APIs and other services
-              when I need them.
-            </p>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.35}>
-          <div className={styles.block}>
-            <h2 className={styles.blockTitle}>privacy</h2>
-            <p className={styles.text}>
-              No cookies. No analytics. No tracking pixels. I do not collect
-              any data from visitors. The site is static and does not phone
-              home to anything.
+              The website is a fairly standard React setup, with React Router for, well,
+              routing, and a custom-built animation system that I use for the fade-ins
+              and transitions. It's fully static and hosted on my own server, which at
+              the current moment is just a macmini m1 running an nginx server. The website
+              is routed through CloudFare, which provides privacy (for both me and you),
+              and also handles caching and CDN stuff to make sure the site loads fast and nicely.
             </p>
           </div>
         </FadeIn>

@@ -13,22 +13,22 @@ const sections: Section[] = [
   {
     to: '/about',
     label: 'about me',
-    desc: 'Computer and data science student. Full stack developer with a passion for ML, systems, and clean architecture.',
+    desc: 'A bit about who I am, what I do, and what I am interested in.',
   },
   {
     to: '/projects',
     label: 'projects',
-    desc: 'From award-winning archaeology software to macOS CLI tools. A mix of team projects and personal builds.',
+    desc: 'A list of some of the projects I have worked on and collaborated on with links to their repos (when available)',
   },
   {
     to: '/skills',
     label: 'skills',
-    desc: 'Swift, TypeScript, Python, React, and more. Languages, tools, and areas of focus.',
+    desc: 'Some of the skills I have gained over the years, which are not limited to just tech stuff.',
   },
   {
     to: '/contact',
     label: 'contact',
-    desc: 'Email, GitHub, Discord. Pick your preferred channel.',
+    desc: 'Ways to reach out to me if you want to get in touch for any reason.',
   },
 ]
 
@@ -40,11 +40,17 @@ export default function Home() {
         <FadeIn>
           <div className={styles.hero}>
             <p className={styles.greeting}>// welcome</p>
-            <h1 className={styles.title}>I build things for the web and beyond.</h1>
+            <h1 className={styles.title}>soo.. who am I?</h1>
             <p className={styles.intro}>
-              Computer and data science student. Full stack developer. Passionate
-              about machine learning, systems, infrastructure, and clean
-              architecture. Also into finance and economics.
+              I'm a teenage kid who likes both software and hardware development, and stuff in between,
+              like machine learning, cybersec and some stuff related to finanace and economics. Other than
+              those, I also have some other hobbies and interests related to skiing, nuclear physics,
+              and some other random stuff.
+            </p>
+            <p className={styles.intro}>
+              Aside from being a personal portfolio, this little corner of the internet is also a place
+              for me to document stuff I work on and just have a general internet presence.
+              Feel free to explore and reach out if you want to ask me anything via the contact page.
             </p>
           </div>
         </FadeIn>
@@ -68,9 +74,8 @@ export default function Home() {
         <FadeIn delay={0.5}>
           <div className={styles.aside}>
             <p className={styles.asideText}>
-              I also run a home lab, experiment with AI-driven trading
-              strategies, and spend too much time thinking about how financial
-              systems work.
+              I'm also in the process of building a homelab system for various reasons.
+              You can check the homelab page for more details.
             </p>
           </div>
         </FadeIn>
