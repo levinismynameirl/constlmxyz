@@ -102,6 +102,16 @@
   line-height: 1.8;
 }
 
+.inlineLink {
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border);
+  transition: border-color var(--transition-fast);
+}
+
+.inlineLink:hover {
+  border-color: var(--text-primary);
+}
+
 .footer {
   margin-top: 3rem;
   padding-top: 2rem;

@@ -9,6 +9,7 @@ import Projects from './pages/Projects'
 import ProjectDetail from './pages/ProjectDetail'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
+import Homelab from './pages/homelab'
 import WhatIsThis from './pages/WhatIsThis'
 
 const pageVariants = {
@@ -61,6 +62,7 @@ function AnimatedRoutes() {
           <Route path="/projects/:id" element={<Page><ProjectDetail /></Page>} />
           <Route path="/skills" element={<Page><Skills /></Page>} />
           <Route path="/contact" element={<Page><Contact /></Page>} />
+          <Route path="/homelab" element={<Page><Homelab /></Page>} />
           <Route path="/what-is-this" element={<Page><WhatIsThis /></Page>} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

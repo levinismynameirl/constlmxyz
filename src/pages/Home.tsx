@@ -30,6 +30,11 @@ const sections: Section[] = [
     label: 'contact',
     desc: 'Ways to reach out to me if you want to get in touch for any reason.',
   },
+  {
+    to: '/homelab',
+    label: 'mountain top',
+    desc: 'My homelab project. A personal network core designed to handle security, services, and infrastructure for an entire home network.',
+  },
 ]
 
 export default function Home() {
@@ -74,8 +79,8 @@ export default function Home() {
         <FadeIn delay={0.5}>
           <div className={styles.aside}>
             <p className={styles.asideText}>
-              I'm also in the process of building a homelab system for various reasons.
-              You can check the homelab page for more details.
+              I'm also building Mountain Top, a homelab and home network core.
+              You can check the <Link to="/homelab" className={styles.inlineLink}>project page</Link> for the full breakdown.
             </p>
           </div>
         </FadeIn>
